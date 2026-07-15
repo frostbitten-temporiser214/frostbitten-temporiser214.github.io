@@ -6,7 +6,8 @@
   --muted: #565b65;
   --rule: #d5d8de;
   --accent: #d90029;
-  --accent-strong: #ad0021;
+  --cta: #c90026;
+  --cta-hover: #a80020;
   --max: 1280px;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -32,8 +33,8 @@ h1 { margin: 0; font-size: clamp(3rem, 6vw, 6.2rem); font-weight: 500; line-heig
 .lede { margin: 2rem 0 0; max-width: 650px; color: var(--muted); font-size: clamp(1.08rem, 2vw, 1.35rem); }
 .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2.25rem; }
 .button { min-height: 50px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--accent); padding: .85rem 1.2rem; font-weight: 750; text-decoration: none; white-space: nowrap; }
-.button.primary { background: var(--accent); color: #f8f8fa; }
-.button.primary:hover { background: var(--accent-strong); color: #f8f8fa; }
+.button.primary { background: var(--cta); color: #f8f8fa; }
+.button.primary:hover { background: var(--cta-hover); color: #f8f8fa; }
 .button.secondary { background: var(--paper); color: var(--accent); }
 .button:active { transform: translateY(1px); }
 .signal-sheet { margin: 0; border: 1px solid var(--ink); background: var(--paper); }
@@ -89,7 +90,8 @@ h1 { margin: 0; font-size: clamp(3rem, 6vw, 6.2rem); font-weight: 500; line-heig
     --muted: #b8bdc7;
     --rule: #363a43;
     --accent: #ff4667;
-    --accent-strong: #d90029;
+    --cta: #c90026;
+    --cta-hover: #a80020;
   }
 }
 
